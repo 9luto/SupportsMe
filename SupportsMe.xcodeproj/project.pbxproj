@@ -19,6 +19,7 @@
 		84EAFE5722277A5C00E394A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EAFE5522277A5C00E394A8 /* Main.storyboard */; };
 		84EAFE5922277A5C00E394A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EAFE5822277A5C00E394A8 /* Assets.xcassets */; };
 		84EAFE5C22277A5C00E394A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EAFE5A22277A5C00E394A8 /* LaunchScreen.storyboard */; };
+		93C17ABC2452CE8C00002905 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93C17ABB2452CE8B00002905 /* RobotoCondensed-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		84EAFE5822277A5C00E394A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84EAFE5B22277A5C00E394A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84EAFE5D22277A5C00E394A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C17ABB2452CE8B00002905 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoCondensed-Regular.ttf"; path = "../../../Roboto_Condensed/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				84EAFE5122277A5C00E394A8 /* AppDelegate.swift */,
 				84EAFE5322277A5C00E394A8 /* ViewController.swift */,
 				84EAFE5522277A5C00E394A8 /* Main.storyboard */,
+				93C17ABB2452CE8B00002905 /* RobotoCondensed-Regular.ttf */,
 				84EAFE5822277A5C00E394A8 /* Assets.xcassets */,
 				84EAFE5A22277A5C00E394A8 /* LaunchScreen.storyboard */,
 				823147DA227A3DB4008FEFD4 /* CalendarVar.swift */,
@@ -168,6 +171,7 @@
 			files = (
 				84EAFE5C22277A5C00E394A8 /* LaunchScreen.storyboard in Resources */,
 				84EAFE5922277A5C00E394A8 /* Assets.xcassets in Resources */,
+				93C17ABC2452CE8C00002905 /* RobotoCondensed-Regular.ttf in Resources */,
 				84EAFE5722277A5C00E394A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -367,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -383,16 +387,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8J7W5Z2MAZ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SupportsMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewWitte.SupportsMe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TeamCESARSupportsMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -402,16 +407,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8J7W5Z2MAZ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SupportsMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewWitte.SupportsMe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TeamCESARSupportsMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
